@@ -10,6 +10,7 @@ const dequeue = document.querySelector('.btn-take-dequeue');
 const queue = new Queue();
 
 const clearQueueInput = () => {
+  queueInput.value = ''
   // ... your code goes here
 };
 
